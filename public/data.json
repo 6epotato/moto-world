@@ -1,0 +1,62 @@
+[
+    {
+        "id": 1,
+        "name": "Palser ns 160",
+        "price": 245000,
+        "img": "https://www.banglamotor.net/images/bajaj/bajaj-pulsar-ns-160-first1.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Suzuki",
+        "price": 235000,
+        "img": "https://www.suzuki.com.bd/images/bike_models/preview_images/privew_images__159815977224178.png"
+    },
+    {
+        "id": 3,
+        "name": "Lifan KPR 150",
+        "price": 200000,
+        "img": "https://images.thedailystar.net/sites/default/files/styles/amp_metadata_content_image_min_696px_wide/public/feature/images/lifan.jpg"
+    },
+    {
+        "id": 4,
+        "name": "Lifan K19",
+        "price": 260000,
+        "img": "https://bengalbiker.com/wp-content/uploads/2021/03/lifan-k19-font-1024x576.jpg"
+    },
+    {
+        "id": 5,
+        "name": "Yamaha R15",
+        "price": 445000,
+        "img": "https://www.banglamotor.net/images/yamaha/yamaha-r15m-image01.jpg"
+    },
+    {
+        "id": 6,
+        "name": "Honda X-Blade",
+        "price": 195000,
+        "img": "https://images.carandbike.com/bike-images/colors/honda/x-blade/honda-x-blade-pearl-igneous-black.png?v=1594115913"
+    },
+    {
+        "id": 7,
+        "name": "Szuki Zixxer",
+        "price": 245000,
+        "img": "https://media.zigcdn.com/media/content/2019/Jun/suzuki-gixxer-china-left_560x420.jpg"
+    },
+    {
+        "id": 8,
+        "name": "Zontes u-1",
+        "price": 445000,
+        "img": "https://zontesbangladesh.com/wp-content/uploads/2021/09/zontes-bike-model-u1-orange-11-980x655-1.png"
+    },
+    {
+        "id": 9,
+        "name": "Honda CBR-165",
+        "price": 545000,
+        "img": "https://www.rushlane.com/wp-content/uploads/2021/01/2021-honda-cbr-150r-facelift-new-2-600x338.jpg"
+    },
+    {
+        "id": 10,
+        "name": "FZS-V3",
+        "price": 245000,
+        "img": "https://images.carandbike.com/bike-images/large/yamaha/fz-s-v30-fi/yamaha-fz-s-v30-fi.jpg?v=23"
+    }
+]

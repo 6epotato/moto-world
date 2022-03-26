@@ -1,0 +1,27 @@
+.bike img{
+    width: 150px;
+    height: 100px;
+}
+.bike{
+    border: 2px solid red;
+    padding-top: 20px;
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    position: relative;
+}
+.bike p{
+    margin-top: 0px;
+    margin-top: 0px;
+}
+.want-btn{
+    width: 100%;
+    background-color: #FFE0B3;
+    position: absolute;
+    bottom: 0px;
+    border-radius: 0px 0px 8px 8px;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
