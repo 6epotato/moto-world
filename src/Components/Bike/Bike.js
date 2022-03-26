@@ -3,8 +3,8 @@ import { faMotorcycle } from '@fortawesome/free-solid-svg-icons'
 import React from 'react';
 import './Bike.css'
 
-const Bike = (props) => {
-    const { name, img, price } = props.bike;
+const Bike = ({ bike, handleAddToCart }) => {
+    const { name, img, price } = bike;
     return (
         <div className='product'>
             <img src={img} alt="" />
@@ -12,7 +12,7 @@ const Bike = (props) => {
                 <p className='product-name'>{name}</p>
                 <p>Price: ${price}</p>
             </div>
-            <button className='btn-cart'><p className='btn-text'>Want To Ride</p><FontAwesomeIcon icon={faMotorcycle}></FontAwesomeIcon></button>
+            <button onClick={() => handleAddToCart(bike)} className='btn-cart'><p className='btn-text'>Want To Ride</p><FontAwesomeIcon icon={faMotorcycle}></FontAwesomeIcon></button>
         </div>
     );
 };

@@ -10,6 +10,40 @@
 .cart-container{
     background-color: #f29b9b;
 }
+.cart{
+    position:sticky;
+   top: 0;
+   padding: 28px 15px;
+}
+.btn-cart1{
+    width: 75%;
+    background-color: #f5cbcb;
+    border-radius: 8px 8px 8px 8px;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+}  
+.btn-cart1:hover{
+    background-color: #f76363;
+}
+.btn-text{
+    margin-right: 5px;
+}
+.btn-cart2{
+    width: 75%;
+    background-color: #f5cbcb;
+    border-radius: 8px 8px 8px 8px;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+}  
+.btn-cart2:hover{
+    background-color: #f76363;
+}
 @media screen and (max-width: 768px){
     .bike-container{
         grid-template-columns: repeat(1,1fr);
