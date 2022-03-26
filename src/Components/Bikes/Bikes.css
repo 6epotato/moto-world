@@ -7,3 +7,16 @@
     display: grid;
     grid-template-columns: 4fr 1fr;
 }
+.cart-container{
+    background-color: #f29b9b;
+}
+@media screen and (max-width: 768px){
+    .bike-container{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .bikes{
+        grid-template-columns: repeat(1,1fr);
+        padding-left: 30px;
+    }
+    
+}

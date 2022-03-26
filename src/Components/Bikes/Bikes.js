@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import Bike from '../Bike/Bike';
+import Cart from '../Cart/Cart';
 import './Bikes.css'
 
 const Bikes = () => {
@@ -16,7 +17,9 @@ const Bikes = () => {
                     bikes.map(bike => <Bike key={bike.id} bike={bike} />)
                 }
             </div>
-            <h1>this is side button</h1>
+            <div className='cart-container'>
+                <Cart />
+            </div>
         </div>
     );
 };
