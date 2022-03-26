@@ -10,7 +10,11 @@ const Bikes = () => {
     const [bikes, setbikes] = useState([])
     const [cart, setCart] = useState([])
     const [randomCart, setRandomCart] = useState([])
-    // console.log(randomCart);
+
+    const deleteCart = () => {
+        setCart([]);
+        setRandomCart([]);
+    }
 
 
     const handleRandomCart = (cart) => {
@@ -54,10 +58,12 @@ const Bikes = () => {
                     <div>
                         {
                             randomCart.map((randomItem) => (<h3 key={randomItem.id}>{randomItem.name}</h3>))
+
+
                         }
                     </div>
                     <div>
-                        <button className='btn-cart2'><p className='btn-text'>Choose Again</p><FontAwesomeIcon icon={faMotorcycle}></FontAwesomeIcon></button>
+                        <button onClick={() => deleteCart(cart)} className='btn-cart2'><p className='btn-text'>Choose Again</p><FontAwesomeIcon icon={faMotorcycle}></FontAwesomeIcon></button>
                     </div>
                 </div>
             </div>
