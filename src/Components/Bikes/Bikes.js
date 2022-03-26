@@ -9,12 +9,24 @@ const Bikes = () => {
 
     const [bikes, setbikes] = useState([])
     const [cart, setCart] = useState([])
+    const [randomCart, setRandomCart] = useState([])
+    // console.log(randomCart);
+
+
+    const handleRandomCart = (cart) => {
+        const randomCart = cart[Math.floor(Math.random() * cart.length)];
+        const newRandomCart = [randomCart]
+        setRandomCart(newRandomCart);
+
+
+    }
 
 
     const handleAddToCart = (bike) => {
         const newCart = [...cart, bike]
         setCart(newCart);
     };
+
     useEffect(() => {
         fetch('data.json')
             .then(res => res.json())
@@ -37,7 +49,12 @@ const Bikes = () => {
                         }
                     </div>
                     <div>
-                        <button className='btn-cart1'><p className='btn-text'>Best For You</p><FontAwesomeIcon icon={faMotorcycle}></FontAwesomeIcon></button>
+                        <button onClick={() => handleRandomCart(cart)} className='btn-cart1'><p className='btn-text'>Best For You</p><FontAwesomeIcon icon={faMotorcycle}></FontAwesomeIcon></button>
+                    </div>
+                    <div>
+                        {
+                            randomCart.map((randomItem) => (<h3 key={randomItem.id}>{randomItem.name}</h3>))
+                        }
                     </div>
                     <div>
                         <button className='btn-cart2'><p className='btn-text'>Choose Again</p><FontAwesomeIcon icon={faMotorcycle}></FontAwesomeIcon></button>
