@@ -6,6 +6,7 @@ import './Bike.css'
 const Bike = ({ bike, handleAddToCart }) => {
     const { name, img, price } = bike;
     return (
+        // bike info 
         <div className='product'>
             <img src={img} alt="" />
             <div className='product-info'>

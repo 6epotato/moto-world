@@ -15,6 +15,7 @@
    top: 0;
    padding: 28px 15px;
 }
+/* button for random  */
 .btn-cart1{
     width: 75%;
     background-color: #f5cbcb;
@@ -31,6 +32,7 @@
 .btn-text{
     margin-right: 5px;
 }
+/* button for delete */
 .btn-cart2{
     width: 75%;
     background-color: #f5cbcb;
